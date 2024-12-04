@@ -1,0 +1,9 @@
+[package]
+name = "server-template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.9" }
+soph = { version = "0.28.0", default-features = false }
+soph-server = { version = "0.28.0", features = ["http1"] }
