@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 axum = { version = "0.7.9" }
-soph = { version = "0.28.1", default-features = false }
-soph-server = { version = "0.28.1", features = ["http1"] }
+soph = { version = "0.28.2", default-features = false }
+soph-server = { version = "0.28.2", features = ["http1"] }
